@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="buoi3.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <div>
+                <label for="Ho">
+                    Họ:
+                </label> 
+                <br/>
+                <input type="text" id="Ho"/> 
+                <br/>
+                <label for="Ten">
+                    Tên:
+                </label> 
+                <br/>
+                <input type="text" id="Ten"/> 
+                <br/>
+                <label for="sdt">
+                    SĐT:
+                </label> 
+                <br/>
+                <input type="text" id="sdt"/> 
+                <br/>
+                <label for="email">
+                    Email:
+                </label> 
+                <br/>
+                <input type="text" id="email" placeholder="example@gmail.com"/> 
+                <br/>
+            </div>
+            <div>
+                <span>
+                    Giới tính:
+                </span>
+                <label for="nam">
+                    Nam
+                </label>
+                <input type="radio" name="gender" id="nam"/>
+                <label for="nu">
+                    Nữ
+                </label>
+                <input type="radio" name="gender" id="nu"/>
+            </div>
+            <div>
+                <label for="date">
+                    Ngày sinh:
+                </label>
+                <input type="date" id="date"/>
+            </div>
+            <div>
+                <label for="quoctich">
+                    Quốc tịch:
+                </label>
+                <select name="quoctich" id="quoctich"/>
+                    <option value="Viet_nam">
+                        Việt Nam
+                    </option>
+                    <option value="My">
+                        Mỹ
+                    </option>
+                    <option value="Nga">
+                        Nga
+                    </option>
+                    <option value="Duc">
+                        Đức
+                    </option>
+                    <option value="TQ">
+                        Ching chong
+                    </option>
+                    <option value="Campuchia">
+                        Campuchia
+                    </option>
+                </select>
+            </div> <br> <br>
+            <input type="button" value="Đăng Kí"/>
+        </form>
+    </div>
+</body>
+
+</html>
