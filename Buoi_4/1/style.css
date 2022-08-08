@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  #container {
+    border: solid;
+    border-width: 1px 3px 3px;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+  }
+
+  h2 {
+    color: blue;
+  }
+
+  .content {
+    border: solid;
+    border-color: blue;
+  }
+
+  .abc {
+    color: red;
+  }
+
+  .div_1 {
+      margin-bottom: 10px;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+
+  .div_2 {
+      margin: 20px;
+  }
